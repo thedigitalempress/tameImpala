@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Kanit', sans-serif;
+    background-color: #000;
 
 }
 
@@ -18,14 +19,13 @@ body {
 }
 
 header {
-    background: url("../img/logo.jpg");
+    background: url("../img/bgpic.jpg");
     background-size: cover;
 }
 
 .topNav {
     padding: 10px;
-    overflow: hidden;
-    background: #d1d5e5;
+    background: #000;
     letter-spacing: 2px;
 }
 
@@ -45,6 +45,7 @@ a {
     text-decoration: none;
     padding: 12px;
     color: #fff;
+    text-transform: uppercase;
 }
 
 iframe {
@@ -57,6 +58,7 @@ iframe {
     padding: 40px;
     text-align: center;
     font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
 }
 
 #merch {
@@ -68,7 +70,6 @@ iframe {
 }
 
 .mainSection {
-    background: url("img/bgpic.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -80,12 +81,14 @@ h3 {
     font-size: 30px;
     text-align: center;
     padding: 20px;
+    text-transform: uppercase;
 }
 
 h4 {
     font-family: 'Kanit', sans-serif;
-    color: #9995C9;
+    color: rgb(70, 223, 108);
     font-size: 25px;
+    text-transform: uppercase;
 }
 
 .blogSection {
@@ -94,7 +97,8 @@ h4 {
     padding-left: 350px;
     width: 800px;
     height: 480px;
-    background-color: #e2e2e2;
+    background-color: rgb(180, 112, 22);
+    color: #fff;
 }
 
 .sidebar {
@@ -102,7 +106,7 @@ h4 {
     padding: 40px;
     width: 620px;
     height: 500px;
-    background-color: #d1d5e5;
+    background-color: #785581;
 }
 
 .blogStyles {
@@ -112,6 +116,7 @@ h4 {
 .blogImage {
     float: left;
     padding: 5px 10px;
+    width: 20%;
 }
 
 p {
@@ -130,12 +135,13 @@ p {
         width: 100%;
         height: 150px;
         padding: 30px 0;
+        
     }
 
     .sidebar {
         float: none;
         clear: left;
-        width: 100%;
+        width: 40%;
         height: 150px;
         padding: 20px 0;
         height: 150px;   
@@ -146,8 +152,8 @@ p {
     }
 
     .blogImage {
-        height: 30%;
+        height: 40%;
         text-align: center;
+        
     }
-
 }
