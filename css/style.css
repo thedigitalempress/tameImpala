@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: font-family: 'Kanit', sans-serif;
+    font-family: 'Kanit', sans-serif;
 
 }
 
@@ -32,7 +32,7 @@ header {
 ul li {
     display: inline;
     list-style-type: none;
-    font-family: font-family: 'Dosis', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 22px;
 }
 
@@ -56,7 +56,7 @@ iframe {
 .merch {
     padding: 40px;
     text-align: center;
-    font-family: font-family: 'Dosis', sans-serif;
+    font-family: 'Dosis', sans-serif;
 }
 
 #merch {
@@ -68,7 +68,7 @@ iframe {
 }
 
 .mainSection {
-    background: url("../img/bgpic.jpg") no-repeat;
+    background: url("img/bgpic.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -76,14 +76,14 @@ iframe {
 
 h3 {
     color: #d1d5e5;
-    font-family: font-family: 'Dosis', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 30px;
     text-align: center;
     padding: 20px;
 }
 
 h4 {
-    font-family: font-family: 'Kanit', sans-serif;
+    font-family: 'Kanit', sans-serif;
     color: #9995C9;
     font-size: 25px;
 }
@@ -146,7 +146,7 @@ p {
     }
 
     .blogImage {
-        height: 100%;
+        height: 30%;
         text-align: center;
     }
 
